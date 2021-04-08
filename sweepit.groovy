@@ -17,4 +17,4 @@ SVGLoad s = new SVGLoad(f.toURI())
 HashMap<String,List<Polygon>> polygonsByLayer = s.toPolygons()
 Polygon myProfile = polygonsByLayer.get("Slice 1").get(0)
 
-return Extrude.revolve(myProfile,0,30)
+return Extrude.revolve(myProfile,5,10)
