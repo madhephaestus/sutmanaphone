@@ -8,7 +8,6 @@ import eu.mihosoft.vrl.v3d.svg.SVGLoad
 File f = ScriptingEngine
 	.fileFromGit(
 		"https://github.com/madhephaestus/sutmanaphone.git",//git repo URL
-		"master",//branch
 		"shape.svg.SVG"// File from within the Git repo
 	)
 println "Extruding SVG "+f.getAbsolutePath()
